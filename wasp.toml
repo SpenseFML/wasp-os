@@ -42,6 +42,7 @@ quick_ring = true
 file = 'apps/sports.py'
 auto_load = true
 quick_ring = true
+
 [[watchface]]
 file = 'watch_faces/clock.py'
 
