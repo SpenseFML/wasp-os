@@ -12,6 +12,7 @@ timer, a calculator and lots of other games and utilities. All of this, and
 still with access to the MicroPython REPL for interactive tweaking, development
 and testing.
 
+
 Wasp-os comes fully integrated with a robust bootloader based on the Adafruit
 NRF52 Bootloader. The bootloader has been extended to make it robust for
 development on form-factor devices without a reset button, power switch, SWD
