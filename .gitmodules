@@ -1,10 +1,7 @@
 [submodule "bootloader"]
 	path = bootloader
 	url = https://github.com/wasp-os/wasp-bootloader
-[submodule "micropython"]
-	path = micropython
-	url = https://github.com/SpenseFML/micropython
-	branch = wasp-os
+
 [submodule "tools/intelhex"]
 	path = tools/intelhex
 	url = https://github.com/python-intelhex/intelhex
