@@ -11,12 +11,6 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-    - name: Download softdevice
-      id:   download-softdevice
-      run:  |
-          export PATH=$PATH:${{ runner.temp }}/arm-none-eabi/bin
-          make -j `nproc` softdevice
-          
     - name: Checkout files
       id:   checkout-files
       uses: actions/checkout@v4
@@ -53,6 +47,12 @@ jobs:
           export PATH=$PATH:${{ runner.temp }}/arm-none-eabi/bin
           make -j `nproc` submodules
 
+    - name: Download softdevice
+      id:   download-softdevice
+      run:  |
+          export PATH=$PATH:${{ runner.temp }}/arm-none-eabi/bin
+          make -j `nproc` softdevice
+          
     - name: Build wasp-os binary distribution
       id:   binary-distribution
       run:  |
