@@ -5,7 +5,6 @@
 	path = micropython
 	url = https://github.com/SpenseFML/micropython
 	branch = wasp-os
-	commit = 54314d7
 [submodule "tools/intelhex"]
 	path = tools/intelhex
 	url = https://github.com/python-intelhex/intelhex
