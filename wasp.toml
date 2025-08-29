@@ -38,11 +38,6 @@ file = 'apps/morse.py'
 auto_load = true
 quick_ring = true
 
-[[app]]
-file = 'apps/sports.py'
-auto_load = true
-quick_ring = true
-
 [[watchface]]
 file = 'watch_faces/clock.py'
 
